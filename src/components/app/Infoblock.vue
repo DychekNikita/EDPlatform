@@ -1,6 +1,6 @@
 <template>
   <div class="info-block col xl9 l9 m9 s9 z-depth-1">
-    <h3 class="info-block-title black-text">Заголовок</h3>
+    <h3 class="info-block-title black-text">Заголовок 2</h3>
   </div>
 </template>
 
