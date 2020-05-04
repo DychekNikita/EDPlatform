@@ -11,20 +11,18 @@ import Infoblock from "@/components/app/Infoblock";
 // import Statistics from "@/components/Statistics";
 // import Recommendations from "@/components/Recommendations";
 
-
 export default {
-  components: { 
+  components: {
     Infoblock,
     Sidebar
   }
-}
-
+};
 </script>
 <style>
-  .container {
-     width: 85% !important;
-     max-width: 1400px !important;
-     display: flex;
-     margin-top: 100px;
-  }
+.container {
+  width: 85% !important;
+  max-width: 1500px !important;
+  display: flex;
+  margin-top: 100px;
+}
 </style>

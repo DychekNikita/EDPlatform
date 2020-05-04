@@ -1,9 +1,7 @@
 <template>
   <nav class="navbar blue lighten-1">
     <div class="nav-wrapper">
-      <router-link to="/">
-        <img class="logo" src="@/assets/images/logo.png" alt="logo">
-      </router-link>
+      <img class="logo" src="@/assets/img/logo.png" alt="logo" />
       <ul class="navbar-content black-text">
         <li>
           <router-link to="/ege">ЕГЭ</router-link>
@@ -11,17 +9,19 @@
         <li>
           <router-link to="/oge">ОГЭ</router-link>
         </li>
-            <li class="profile">
-              <router-link class="white-text" to="/user/statistics" >Личный кабинет</router-link>
-            </li>
-          </ul>
+        <li class="profile">
+          <router-link class="white-text" to="/user/statistics"
+            >Личный кабинет</router-link
+          >
+        </li>
+      </ul>
     </div>
   </nav>
 </template>
 
 <script>
 export default {
-    name: "navbar",
+  name: "navbar",
   data: () => ({
     dropdown: null
   }),
@@ -36,9 +36,10 @@ export default {
 
 <style>
 .logo {
-  width: 170px;
-  height: 60px;
+  width: 150px;
+  height: 50px;
 }
+
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
